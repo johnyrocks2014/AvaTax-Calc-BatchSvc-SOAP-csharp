@@ -87,7 +87,7 @@ namespace BatchSvcTest
             public BatchSvc(string Url, string userName, string passWord)
             {
 
-                this.Destination = Util.GetEndpoint(Url, "Account/AccountSvc.asmx");
+                this.Destination = Util.GetEndpoint(Url, "Batch/BatchSvc.asmx");
 
                 // Setup WS-Security authentication
                 UsernameToken userToken = new UsernameToken(userName, passWord, PasswordOption.SendPlainText);
