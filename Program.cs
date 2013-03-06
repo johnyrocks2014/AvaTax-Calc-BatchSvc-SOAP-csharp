@@ -15,8 +15,8 @@ namespace BatchSvcTest
     {
         static void Main(string[] args)
         {
-            string m_UserName = "timothy.longley"; //For BatchSvc, you must authenticate with username/password.
-            string m_PassWord = "B672885!"; //That credential set must have Admin-level access.
+            string m_UserName = ""; //For BatchSvc, you must authenticate with username/password.
+            string m_PassWord = ""; //That credential set must have Admin-level access.
             string m_Url = "https://development.avalara.net"; //Service URL
             int m_CompanyID = 49275; //This should be your CompanyID (not company code!)
 
