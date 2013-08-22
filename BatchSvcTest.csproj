@@ -38,19 +38,15 @@
     <Reference Include="Accessibility">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="Avalara.AvaTax.Services.Proxies">
-      <HintPath>..\..\CompanyFetchTest\CompanyFetchTest\CompanyFetchTest\bin\Debug\Avalara.AvaTax.Services.Proxies.dll</HintPath>
+    <Reference Include="Avalara.AvaTax.Services.Proxies.Public">
+      <HintPath>.\Avalara.AvaTax.Services.Proxies.Public.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft WSE\v3.0\Microsoft.Web.Services3.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Web.Services" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>

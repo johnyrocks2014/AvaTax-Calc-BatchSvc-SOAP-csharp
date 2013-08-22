@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 //using System.Linq;
 using System.Text;
-using Avalara.AvaTax.Services.Proxies.BatchSvcProxy;
+using Avalara.AvaTax.Services.Proxies.Public.BatchSvcProxy;
 using Microsoft.Web.Services3;
 using Microsoft.Web.Services3.Security.Tokens;
 using Microsoft.Web.Services3.Addressing;
@@ -96,7 +96,7 @@ namespace BatchSvcTest
                 requestContext.Security.Timestamp.TtlInSeconds = 300;
 
 
-                Avalara.AvaTax.Services.Proxies.BatchSvcProxy.Profile profile = new Avalara.AvaTax.Services.Proxies.BatchSvcProxy.Profile();
+                Avalara.AvaTax.Services.Proxies.Public.BatchSvcProxy.Profile profile = new Avalara.AvaTax.Services.Proxies.Public.BatchSvcProxy.Profile();
                 profile.Client = "QATestClient"; // _config.Client;
                 profile.Adapter = "";
                 profile.Name = "";
