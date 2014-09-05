@@ -1,5 +1,6 @@
 AvaTaxCalc-BatchSvcSOAP-csharp
 ==============================
+[Other Samples](http://developer.avalara.com/api-docs/api-sample-code)
 
 Sample of BatchSvc SOAP API in c# demonstrating functionality of BatchSave and BatchFileFetch.
 
