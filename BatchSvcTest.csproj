@@ -38,8 +38,8 @@
     <Reference Include="Accessibility">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="Avalara.AvaTax.Services.Proxies.Public">
-      <HintPath>.\Avalara.AvaTax.Services.Proxies.Public.dll</HintPath>
+    <Reference Include="Avalara.AvaTax.Services.Proxies">
+      <HintPath>.\Avalara.AvaTax.Services.Proxies.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

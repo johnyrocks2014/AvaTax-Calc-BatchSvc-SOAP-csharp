@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 //using System.Linq;
 using System.Text;
-using Avalara.AvaTax.Services.Proxies.Public.BatchSvcProxy;
+using Avalara.AvaTax.Services.Proxies.BatchSvcProxy;
 using Microsoft.Web.Services3;
 using Microsoft.Web.Services3.Security.Tokens;
 using Microsoft.Web.Services3.Addressing;
@@ -15,8 +15,8 @@ namespace BatchSvcTest
     {
         static void Main(string[] args)
         {
-            string m_UserName = ""; //TODO: For BatchSvc, you must authenticate with username/password.
-            string m_PassWord = ""; //TODO: That credential set must have Admin-level access.
+            string m_UserName = "username"; //TODO: For BatchSvc, you must authenticate with username/password.
+            string m_PassWord = "password"; //TODO: That credential set must have Admin-level access.
             string m_Url = "https://development.avalara.net"; //Service URL
             int m_CompanyID = 49275; //This should be your CompanyID (not company code!)
 
@@ -96,7 +96,7 @@ namespace BatchSvcTest
                 requestContext.Security.Timestamp.TtlInSeconds = 300;
 
 
-                Avalara.AvaTax.Services.Proxies.Public.BatchSvcProxy.Profile profile = new Avalara.AvaTax.Services.Proxies.Public.BatchSvcProxy.Profile();
+                Avalara.AvaTax.Services.Proxies.BatchSvcProxy.Profile profile = new Avalara.AvaTax.Services.Proxies.BatchSvcProxy.Profile();
                 profile.Client = "QATestClient"; // _config.Client;
                 profile.Adapter = "";
                 profile.Name = "";
